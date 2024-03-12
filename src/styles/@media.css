@@ -1,0 +1,289 @@
+/* --------------section-------------------- */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .rakurs p {
+    font-size: 16px;
+  }
+ 
+  .sec1 img {
+    object-position: 0 48px;
+  }
+
+  .sec1 h3 {
+    font-size: 24px;
+  }
+  .sec2 {
+    width: 640px !important;
+    height: 504px;
+  }
+
+  .sec2 p {
+    font-size: 48px !important;
+    line-height: 48px !important;
+  }
+  .sec4 p{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  
+  .section .btn-active {
+    left: 35% !important;
+    background-color: #ffff;
+    color: #43301f;;
+  }
+  .section.show {
+    width: 424px !important;
+    height: 620px;
+  }
+  .section-content.show-content{
+    width: 424px !important;
+  }
+  .content-active {
+    margin-left: 0% !important;
+    background-color: #ede8e800!important;
+    color: #43301f !important;
+  }
+  .app-sec7 {
+    margin-top: 58px !important;
+  }
+  .section-content1.show-content{
+    width: 422px !important;
+  }
+  .section-content {
+    display: block !important;
+  }
+  .btn-stone {
+    background-color: #ede8e800 !important;
+  }
+  .stone-active {
+    margin-left: 0% !important;
+  }
+  .sec9.show-garden {
+    width: 424px !important;
+  }
+  .garden-active {
+    margin-left: 0% !important;
+    background-color: #ffff !important;
+    color: #43301f !important;
+  }
+
+  
+}
+
+@media (max-width: 376px) {
+  .container {
+    width: 344px;
+  }
+  .rakurs {
+    width: 344px;
+  }
+  .rakurs img {
+    width: 240px;
+  }
+  .sec1, .sec2{
+    width: 344px;
+  }
+  .sec3 {
+    max-width: 344px;
+    flex-wrap: nowrap;
+  }
+  .sec3 iframe {
+    max-width: 344px;
+    height: 310px;
+  }
+  .sec2 p {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  
+  .shops {
+    max-width: 344px;
+  }
+  .sec4, .section, .sec6, .section-content, .sec8, .sec9, .sec10 {
+    max-width: 344px;
+  }
+  .sec4-btn {
+    left: 20%;
+  }
+  .section .next {
+    top: 108%;
+  }
+  .section .btn-text {
+    top: 90%;
+    left: 53%;
+  }
+  .btn-stone {
+    left: 50%;
+  }
+  .btn-garden {
+    left: 50%;
+  }
+  
+  .section-content .btn-design {
+    left: 53%;
+  }
+  .application {
+    display: none;
+  }
+  
+  .section-content img {
+    object-position: -20px 30px;
+  }
+  .container .sec8 h3 {
+    font-size: 32px;
+  }
+  .sec4 p{
+    font-size: 32px;
+    line-height: 32px;
+  }
+  #sec10 .form10 input {
+    width: 310px;
+    height: 52px;
+  }
+  #sec10 .form10 .form-btn {
+    width: 310px;
+  }
+  #sec10 {
+    width: 340px;
+  }
+  .design p {
+    width: 395px !important;
+  }
+
+  .btn-content{
+    left: 176px !important;
+  }
+  #sec10 form input {
+    width: 310px !important;
+  }
+  .form-btn {
+    width: 310px !important;
+  }
+
+}
+
+/* -------------------------------------------------- */
+
+
+/* ---------------------nav---------------------- */
+
+@media (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 16px;
+  }
+  .menu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.menu ul li {
+  margin-left: 10px;
+}
+.menu ul li:last-child {
+  display: none;
+}
+.rakurs img{
+  width: 240px;
+}
+.newDiv {
+  left: 17px;
+}
+
+.newDiv::before {
+  display: none;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+}
+.contacts ul li {
+  display: none;
+}
+.contacts ul li:last-child {
+  display: block;
+}
+#newDiv {
+  left: 560px;
+}
+}
+
+/* ----------------------------------------------------------------- */
+
+
+
+@media (max-width: 376px) {
+  .nav {
+    width: 376px;
+    height: 36px;
+  }
+  .rakurs-nav img{
+    display: none !important;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 0;
+  }
+  .contacts ul li {
+    display: none;
+  }
+  .contacts ul li:last-child {
+    display: block;
+  }
+  .sec2 {
+    width: 344px !important;
+  }
+  .sec2 p {
+    font-size: 32px !important;
+    line-height: 40px !important;
+  }
+  
+  .modal {
+    position: relative;
+    width: 344px;
+  }
+  .modal-btn {
+    width: 25px;
+    height: 25px;
+    margin-left: 90px;
+  }
+  .modal form input{
+    width: 312px;
+  }
+  
+  #sec3 {
+    width: 344px !important;
+  }
+  .ymaps-2-1-79-map  {
+    width: 344px !important;
+  }
+  .sec4  {
+    margin-top: 56px !important;
+  }
+  .section .btn-text {
+    left: 53% !important;
+  }
+  .details, .design, .stone, .garden, .sec1, .rakurs, #sec10, .form10 {
+    width: 344px !important;
+  }
+  .section .btn-active {
+    left: 28% !important;
+  }
+  .btn-stone {
+    left: 54% !important;
+  }
+  .stone p{
+    margin-top: 138px;
+  }
+  .btn-garden {
+    left: 52% !important;
+  }
+}
+
+/* ----------------------------------------------- */

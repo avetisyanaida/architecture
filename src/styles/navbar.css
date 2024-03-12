@@ -1,0 +1,135 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 52px;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.nav ul li a {
+  font-size: 16px;
+  font-family: 'Suisse Intl Regula', sans-serif;
+}
+
+.nav ul li a {
+  color: #43301f;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  grid-gap: 36px;
+}
+
+.menu img {
+  width: 12px;
+  height: 6.5px;
+}
+
+.menu ul {
+  display: flex;
+  padding: 16px 0 0 40px;
+}
+
+.menu ul li {
+  margin: 0 10px;
+}
+.menu ul li a i svg {
+  margin: -2px 5px;
+}
+.newDiv {
+  position: fixed;
+  top: 70px;
+  left: 50px;
+  z-index: 40;
+  width: 200px;
+  background-color: #f7f0e4;
+  border-radius: 4px;
+  opacity: 1;
+  transform: translateY(-15px);
+  transition: all 200ms;
+  padding: 0 5px;
+}
+.newDiv::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  transform: translateY(-100%);
+  width: 32px;
+  height: 13px;
+  background-image: url(/src/images/menu-dropdown.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.open-menu {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 8px;
+  margin-bottom: 8px;
+}
+.btn-anchor {
+  padding: 4px 10px;
+  background-color: transparent;
+  color: #43301f;
+  
+}
+.btn-openMenu {
+  font-family: 'Suisse Intl', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 50px;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  color: #43301f;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.btn-dark {
+  background-color: #292929;
+  color: white;
+}
+
+.rakurs-nav {
+  display: flex;
+  justify-content: center;
+}
+.rakurs-nav img {
+  width: 135px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  grid-gap: 20px;
+}
+
+.contacts ul {
+  display: flex;
+  align-items: center;
+}
+
+.contacts ul li {
+  margin-right: 20px;
+}
+
+.contacts ul li:last-child a {
+  background-color: #f7f0e4;
+  border-radius: 39px;
+  padding: 8px 16px;
+}
+.contacts ul li:last-child a:hover {
+  background-color: #ded8cd;
+}
+
+.contacts ul li a {
+  cursor: pointer;
+}

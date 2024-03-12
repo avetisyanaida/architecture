@@ -1,0 +1,87 @@
+/* modal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+  }
+
+  .modal {
+    width: 424px;
+    height: 620px;
+    margin: 96px auto;
+    background-color: #F7F1E4;
+    position: relative;
+  }
+  .modal-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+  }
+  .modal h3 {
+    font-size: 40px;
+    color: #43301F;
+    padding: 16px;
+    line-height: 40px;
+    font-family: 'Suisse Intl Regular' sans-serif;
+    margin-bottom: 16px;
+  }
+  
+  .modal form input {
+    display: block;
+    width: 392px;
+    height: 52px;
+    border-radius: 26px;
+    padding: 16px 32px;
+    margin: 8px 17px;
+    border: 1px solid #43301f31;
+    background-color: #F7F1E4;
+    outline: none;
+  }
+  .modal form input::placeholder{
+    color: #43301F;
+    font-size: 16px;
+  }
+  .form-btn {
+    width: 392px;
+    height: 52px;
+    margin: auto;
+    display: block;
+    border-radius: 26px;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+  }
+  .modal p {
+    color: #43301F;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 16px;
+    margin-bottom: 60px;
+  }
+  .modal-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: rgba(128, 128, 128, 0.50);
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 85%;
+    margin-top: 4%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .modal form input:hover{
+    border: 1px solid #43301F;
+  }
+  .modal form input:focus {
+    border: 1px solid #43301F;
+  }

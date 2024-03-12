@@ -1,0 +1,63 @@
+.nav {
+    position: fixed;
+}
+.developer {
+    width: 100%;
+    padding-top: 172px;
+    position: absolute;
+    background-color: #C6C6C6;
+}
+.dev-info {
+    width: 1072px;
+    margin: auto;
+}
+.developer h2 {
+    width: 675px;
+    margin: 0 auto 96px;
+    text-align: center;
+    color: #43301F;
+    font-size: 64px;
+    line-height: 60px;
+    font-family: 'Suisse Intl Regula', sans-serif;
+}
+.developer .img {
+   text-align: center;
+}
+.developer .p1 {
+    color: #43301f75;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Suisse Intl Regula', sans-serif;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.developer p {
+    margin: 70px auto;
+    font-size: 16px;
+    line-height: 28px;
+    color: #43301F;
+    width: 424px;
+}
+.developer h3 {
+    margin-top: 96px auto;
+    text-align: center;
+    width: 1072px;
+    font-size: 64px;
+    line-height: 60px;
+    color: #43301F;
+}
+.button {
+    text-align: center;
+    width: 424px;
+    padding: 16px 0;
+    background-color: #292929;
+    border-radius: 26px;
+    margin: 0 auto 96px;
+}
+.dev-btn {
+    color: #F7F2E8;
+    font-size: 16px;
+    font-family: 'Suisse Intl Regula', sans-serif;
+    border: none;
+    cursor: pointer;
+}
